@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "formik": "latest",
-    "@types/react": "latest",
+    "@types/react": "16.9.24",
     "@types/prop-types": "latest"
   }
 }
