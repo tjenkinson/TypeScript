@@ -6,7 +6,7 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "util": "^0.10.3"
+    "util": "^0.12.2"
   },
   "devDependencies": {
     "@types/node": "latest"
