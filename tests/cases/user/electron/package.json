@@ -6,6 +6,12 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "electron": "latest"
-  }
+    "electron": "latest",
+    "snyk": "^1.316.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
