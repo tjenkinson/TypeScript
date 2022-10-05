@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - adonis-framework > node-res > send > debug:
+        patched: '2022-10-05T21:39:32.809Z'
+    - adonis-framework > node-cookie > keygrip > debug:
+        patched: '2022-10-05T21:39:32.809Z'
+  'npm:mime:20170907':
+    - adonis-framework > node-res > send > mime:
+        patched: '2022-10-05T21:39:32.809Z'
+  'npm:ms:20170412':
+    - adonis-framework > node-res > send > ms:
+        patched: '2022-10-05T21:39:32.809Z'
+    - adonis-framework > node-res > send > debug > ms:
+        patched: '2022-10-05T21:39:32.809Z'
+    - adonis-framework > cat-log > ms:
+        patched: '2022-10-05T21:39:32.809Z'
+  'npm:ms:20151024':
+    - adonis-framework > node-cookie > keygrip > debug > ms:
+        patched: '2022-10-05T21:39:32.809Z'
