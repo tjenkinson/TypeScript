@@ -6,9 +6,15 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "adonis-framework": "^3.0.14"
+    "adonis-framework": "^3.0.14",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/node": "latest"
-  }
+  },
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
