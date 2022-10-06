@@ -6,9 +6,15 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "npm": "^5.7.1"
+    "npm": "^7.21.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/node": "latest"
-  }
+  },
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
